@@ -1,0 +1,930 @@
+documents:
+- artifact_targets:
+    epic: false
+    journey_map: false
+    project_home: true
+    sandbox_prototype: false
+    test_case: false
+    user_story: false
+    wireframe: false
+    workshop_plan: true
+  chunks_indexed: 38
+  doc_label: Statement of Work
+  doc_type: sow
+  filename: CD_CSPL - Scope Document - 18 June - Draft.pdf
+  page_count: 52
+  persona: PM
+  text: "TVS Credit \nCD/CSPL LOS - Scope \nDocument \nExperience Cloud \nSalesforce\
+    \ Professional Services \n \nJune 18 2026 \n\nForward-looking statements \nThis\
+    \ presentation contains forward-looking statements about, among other things,\
+    \ trend analyses and statements \nregarding future events, anticipated growth\
+    \ and industry prospects, and our strategies, expectation or plans \nregarding\
+    \ product releases and enhancements. The achievement or success of the matters\
+    \ covered by such \nforward-looking statements involves risks, uncertainties and\
+    \ assumptions. If any such risks or uncertainties \nmaterialize or if any of the\
+    \ assumptions prove incorrect, results or outcomes could diﬀer materially from\
+    \ those \nexpressed or implied by these forward-looking statements. The risks\
+    \ and uncertainties referred to above include \nthose factors discussed in Salesforce’s\
+    \ reports ﬁled from time to time with the Securities and Exchange Commission,\
+    \ \nincluding, but not limited to our ability to consummate the pending acquisition\
+    \ of Informatica on a timely basis or at \nall; our ability to meet the expectations\
+    \ of our customers; uncertainties regarding Al technologies and their \nintegration\
+    \ into our product oﬀerings; the eﬀect of evolving domestic and foreign government\
+    \ regulations; regulatory \ndevelopments and regulatory investigations involving\
+    \ us or aﬀecting our industry; our ability to successfully introduce \nnew services\
+    \ and product features, including related to AI and Agentforce; our ability to\
+    \ execute our business plans; \nthe pace of change and innovation and our ability\
+    \ to compete in the markets in which we participate; and our ability \nto maintain\
+    \ and enhance our brands. \n\n●High Level Scope Summary \n●Proposed Scope \n●Scope\
+    \ Assumptions and Exclusions \n●Integration List Considered \n●MuleSoft Scope\
+    \ \n●Lendwise Scope \n●Other Elements of Statement Of Work (SOW) Index \n\nScope\
+    \ - High Level Summary \nProducts & Oﬀerings Channels Core Journeys Core Modules\
+    \ Phase 2 Items \n●Consumer \nDurables (CD) \n○Pre-approved \n(PA) \n○Non PA \n\
+    ●Cross Sell Personal \nLoan (CSPL) \n●Branch \n○Direct Walkin \ncustomer \n●Dealers\
+    \ \n●Do it Yourself (DIY) \n●Marketing \n○Digital \nMarketing Lead \n(Social Media,\
+    \ \nSMS \nCampaigns) \n○Aggregators \n(Paisabazaar, \nTransUnion etc.) \n●New\
+    \ Business \n○Single \nproduct \n○Multi \nproduct \n○Parent-Child \n●Cross-sell\
+    \ - PL \n●Branch/Dealers/Call \nCenter \n○Lead Creation \n○Loan \nApplication\
+    \ \n●QDE \n●DDE \n●Pricing & Negotiation \n●Credit/Underwriting \n& deviations\
+    \ \n●Operations \n●Risk Control Unit \n(RCU) \n●Value Added \nServices (VAS) \n\
+    ●Call Center \n●DIY\n\n\nConceptual Approach - Post May 12 \nPhase 1: CSPL and\
+    \ CD \nJun 26 - Dec 26 \nContract \nExecution \nImplementation Scope \nFoundation\
+    \ and CSPL - R1 \nConsumer Durables - R2 Jan 27 - Mar 27 \n25th  May \n2026 Jun\
+    \ 26     \nM1Jul 26     \nM2Aug 26    \nM3Sep 26   \nM4Oct 26  \nM5Nov 26  \n\
+    M6Dev 26  \nM7Jan 27  \nM8Feb 27  \nM9Mar 27 \nM10 \nWe are \nhere\nCSPL Tech\
+    \ Go-Live \nCD Tech Go-Live Scope Finalization (Phase 1) \nFoundation sets powers\
+    \ for an early CSPL go-live; CD \nlaunches in parallel with a small additive set;\
+    \ \nremaining APIs ship incrementally without blocking \nthe rest of the LOS journey.\
+    \ \nAll AI capabilities remain available per the individual \nrelease plan. SF+\
+    \ {Removed} \nPhase 1: Scope will be contracted via SOW to initiate project -\
+    \ 2 Journeys CSPL & CD ONLY \nPhase 2 and Beyond: Journeys to be decided \nand\
+    \ separately contracted Progressive Enrichment \nTVS Credit - Day2 Support Team\
+    \ Warranty  Optional \nWarranty  Optional \nWarranty Optional - To be contracted\
+    \ additionally Implementation with 4 weeks hypercare \nTech Go-Live \n\nSalesforce\
+    \ Professional Services   ·   May 2026 \nRelease Plan — CSPL & Consumer Durables\
+    \ \n35 \nFoundation APIs \nCSPL Release 1 — early go-live Progressive Enrichment\
+    \ - delta APIs 42 \nIncremental, post Release 2 8\nCD additional APIs \nRelease\
+    \ 2 CD - Foundation + CD speciﬁc APi’s 85 \nTotal APIs at full scope \n~180 endpoints\
+    \ across CSPL + CD \nRelease 1 · Foundation + CSPL \nCSPL Early Go-Live \nThe\
+    \ shared foundation set along with RTF setup— \nunlocks an early CSPL launch.\
+    \ \n    ■  Base RTF platform setup \n■  Customer onboarding: SMS/WhatsApp, EKYC\
+    \ \n(Aadhaar OTP), PAN, Aadhaar masking \n■  Decisioning: Multi-Bureau, BRE (Actico),\
+    \ Appscore, \nFraud check (Hunter) \n■  Funding & servicing: Penny Drop, e-Mandate\
+    \ \n(Aadhaar), e-Sign, LMS, DMS \n■  Documents: KFS, Sanction Letter, Application,\
+    \ T&C, \nForm 60, OSV \nFoundational setup  lowest integration risk — \ndelivers\
+    \ early value for TVS. Release 2 · CD Parallel Track \nConsumer Durables Launch\
+    \ \nA small additive set on top of the Foundation \nenables the CD product to\
+    \ launch in parallel with \nCSPL R2. \n■  Asset & device: SRNV / IMEIV, Asset\
+    \ Validation, Asset \nDedupe, Datacultr \n■  Value-added services: extended VAS\
+    \ booking (One \nAssist, Epicure Shield) \n■  BRE: CD-speciﬁc rule sets layered\
+    \ on the shared \nengine \n■  Validate Asset Details — internal API for CD \n\
+    merchant/asset checks \nBuild Incremental capabilities required for \nearly launch\
+    \ of CD Incremental · Capability Enhancements \nProgressive Enrichment \nDelivered\
+    \ incrementally after Release 2 without \nholding the LOS journey \n■  Alternate\
+    \ KYC paths: CKYC, DigiLocker, VKYC, \nmulti-vendor PAN veriﬁcation, Utility Bill\
+    \ Validation \n■  Alternate  Mandate breadth: Debit / Net Banking / \nUPI e-Mandates,\
+    \ eNACH, Open Mandate \n■  Alternate Income / Credit Veriﬁcations : Account \n\
+    Aggregator, Mobile Intelligence, Credit Health, ITR \n■  Alternate Dialer and\
+    \ Comms channels  : CTI/Dialer \nexpansion, Email \nRemaining APIs and functionality\
+    \ catch up in \nwaves. Priority of rollout to be prioritized \nSalesforce Professional\
+    \ Services \n\nProposed Scope \nOur Understanding of Engagement Scope & Solution\
+    \ \noverview across Salesforce Clouds \n\nOur Understanding of Scope (1/12) \n\
+    Feature Description Scope/Solution Assumptions \nLead Creation Lead Sourcing \n\
+    ● Walk-in Customers \n● Call Center \n● Pre-approved (PA) database (CD, CSPL)\
+    \ \n● Saathi App \n● Lead Channels - API based Lead Creation  \n○ Online (TVS\
+    \ Credit Website) \n○ OEMs \n○ Marketing campaigns - Social media, SMS \n○ TVS\
+    \ Internal Lead Management System \n○ Digital aggregator (Paisabazaar, TransUnion)\
+    \                                         \n● Up to fifteen (15) list views for\
+    \ leads created from \nchannels \n● Up to ten (10) quick actions will be configured\
+    \ to action \non leads \nLead management Configure standard Out of the Box (OOTB)/Custom\
+    \ - \n● Lead assignment to Call Center/Field Officer \n○ Up to twenty (20) lead\
+    \ routing rule with up to twenty five (25) parameters. \n● Trigger geofencing\
+    \ check \n○  Lat/Long capture for Dealers/FOs creating loan application \n● Capture\
+    \ mobile number \n○ Trigger Mobile OTP validation (Mobile OTP integration) \n\
+    ○ Obtain Terms & Condition/Customer Consent \n○ Capture compliance/regulatory\
+    \ \n● Trigger PA base check \n● Trigger ETT/NTT check \n○ Check for blocked status\
+    \ for ETT \n● Capture loan amount \n○ Capture asset details (in specific product\
+    \ cases) \n● Capture PAN/Form 60 (PAN not mandatory for amount <20k - product\
+    \ dependent) \n○ Form 60 - document generation (part of e-agreement) \n● Enable\
+    \ option for lead reassignment (Call Center/FO/Dealer) ● PA base will be setup\
+    \ in SF and periodically \nmaintained through bulk upload option/csv file \nimport/API\
+    \ integration. Recommendation is to have a \nbulk upload of PA base into Salesforce\
+    \ using SFTP \nand Mule. \n● Application will enable validations/restrictions\
+    \ on Form  \n60 capture for existing customers. \n\n\nOur Understanding of Scope\
+    \ (2/12) \nFeature Description Scope/Solution Assumptions \nQDE \nConfigure the\
+    \ following capabilities - \n● Trigger KYC check \n○ Check for OVD/ DOVD required\
+    \ flag from PA base (OVD/DOVD collection mandatory) \n○ Run fuzzy logic for name\
+    \ match (via SF Lendwise) \n■ Proceed or stop the application (based on fuzzy\
+    \ logic check) \n○ Name match score sent to Business Rules Engine (BRE) \n● Capture\
+    \ applicant personal details (Name, DOB, Gender, etc.) \n● Capture co-applicant\
+    \ details \n● Capture family details \n● Capture address Details (Current/Correspondence\
+    \ address) for OVD/DOVD cases (SF Lendwise/OCR integration) \n● Collect Officially\
+    \ Valid document (OVD) (for ETT - address change cases) \n○ Send link to Customer\
+    \ for document upload \n○ Schedule appointment (date and time) for physical document\
+    \ collection \n○ Create collection task/case for document collection executive.\
+    \ \n● Trigger geofencing check for Customer (Customer address v/s Dealer Lat/Long\
+    \ check) \n● Verify PAN details \n○ Trigger fuzzy logic for applicant name, DOB\
+    \ and Father name match (via SF Lendwise) \n● Capture live photo of Customer \n\
+    ○ Watermarking of photo (use of SF Bridge App) \n○ Face match (via Face Match\
+    \ API integration) \n○ Face liveness check (via Face Liveness check API integration)\
+    \ \n○ Geo-fencing check (via Lat-long mapping API integration) \n● Trigger internal\
+    \ dedupe \n○ Enable native Application dedupe based on Email, Phone, PAN, Aadhar\
+    \ \n● Trigger dedupe (Posidex integration) \n● Trigger bureau check \n○ Trigger\
+    \ fuzzy logic - name match  (via SF Lendwise) \n● Trigger BRE (product specific)\
+    \ ● Details like personal details, addresses etc. will be pre-fetched from \n\
+    PA base/Parent Loan and displayed with option to edit. \n● For cases, where bureau/multi-bureau\
+    \ check has been successfully \ncompleted in previous 30 days, will only be trigger\
+    \ again in case of \nany material change like address, DOB etc. \n● Dedupe results\
+    \ will  be displayed via integration with Posidex(Fields \nto be displayed on\
+    \ screen - TBD) \n● Prepopulate customer data to avoid data entry for ETT \n●\
+    \ User to select manually when there are multiple dedupe results \n● Application\
+    \ standard dedupe rule configuration will be used. \n● Application will enable\
+    \ switch to Equifax Bureau based on CIBIL  \nScore < 300 or on CIBIL API failure.\
+    \ \nKnow Your Customer (KYC) \nchecks \nConfigure the following capabilities -\
+    \ \n● Enable options for initiation and completion of KYC  \n○ Digital KYC \n\
+    ■ CKYC (Cersai) \n■ Digilocker \n■ Biometric/Face Scan/e-KYC (through Salesforce\
+    \ Bridge app) \n■ Video KYC check \n○ Physical KYC (Document upload option followed\
+    \ by reading data through Salesforce Lendwise solution \n■ Sales user to be able\
+    \ to upload Documents against a defined category (Driving License (DL), Voter\
+    \ ID, Passport, \nAadhaar) \n■ Option for live photo capture of KYC documents\
+    \ \n■ Data extraction for uploaded documents(through Salesforce Lendwise Solution)\
+    \ \n■ Enable option for manual data edits. \n● Configure logic for sequencing\
+    \ of KYC checks (CKYC → Digilocker → Biometric KYC → Physical KYC ) \n● CKYC will\
+    \ be mandatory for ETT’s for address change cases and  \nother applicable scenarios\
+    \ like no previous CKYC check. \n● CKYC will be enabled for NTT Customers as well.\
+    \ \n● Salesforce Lendwise AI solution will be used for data extraction from \n\
+    uploaded documents. Fields will be pre-populated for successfully \nread fields\
+    \ - and will be editable/non editable (conditional), rest \nfields will be editable..\
+    \ \n● Salesforce Bridge app will be integrated with the biometric device \nprovided\
+    \ by Customer. Only one (1) biometric device has been \nassumed to be in scope.\
+    \ \n● OVD is mandatory for DOVD Customer post 90 day period (to be \nkept configurable).\
+    \ \n● Type of KYC checks to be configured at master level \n● Application will\
+    \ enable parsing of S/O or C/O in the data etched  \nfrom KYC/Bureau specific\
+    \ integrations. Technical feasibility for  \ncomplex scenarios will be determined\
+    \ during discovery phase.  \nManual verification will be required for such trivial\
+    \ cases \n\nOur Understanding of Scope (3/12) \nFeature Description Scope/Solution\
+    \ Assumptions \nDDE \nConfigure the following capabilities - \n● Loan Application\
+    \ number generation (specific format) \n● Capture applicant employment details\
+    \ (including office address) \n● Capture applicant education details \n● Capture\
+    \ applicant self-declared income details \n● Capture family income details \n\
+    ○ FOIR calculation (for loan amount < 25k - configurable in masters) - through\
+    \ integration \n● Capture reference details (2 references) \n● Initiate income\
+    \ assessment (for additional limits/loan amount requests above BRE approved amount)\
+    \ \n○ Send link to Customer to fetch or upload bank statement \n○ Trigger income\
+    \ check via (Account Aggregator, PayU, Truecaller etc.) \n○ Fuzzy logic for name\
+    \ check (via SF Lendwise) \n● Send details to BRE (Offer) (offer generation -\
+    \ basis income details,Appscore, BRE 1, employment \ndetails) \n● Display LTV%\
+    \ and max loan eligibility across different loan categories (multi-product, child\
+    \ loan, \nproduct and product sub-categories, small appliances loan) \n● Capture\
+    \ Offer BRE response \n○ Responses - Approve, Reject, Refer to RCU/Credit/Ops,\
+    \ Loan eligibility \n● Enable Product and Asset selection (based on BRE response)\
+    \ \n○ Single product/multi-product/small appliances (ETT) \n● Scheme and EMI option\
+    \ selection \n○ System will auto-populate recommended scheme (basis pre-configured\
+    \ rules) \n○ EMI options - Manufacture or TVS driven \n○ Scheme options - model,\
+    \ dealer, model + dealer, manufacturer + OEM, manufacturer + model \n(master driven)\
+    \ \n● Calculation of interest subvention (for OEM option) \n● Enable selection\
+    \ of EMI \n○ Normal EMI, Fixed EMI, Flexi EMI \n○ Calculate margin money requirement\
+    \ (for Fixed EMI schemes) \n● Trigger offer check (Discounts, cashback) ● Details\
+    \ like personal employment, education, \nself declared income etc. will be pre-fetched\
+    \ \nfrom PA base/Parent Loan and displayed with \noption to edit. \n● For cases,\
+    \ where bureau check has been \nsuccessfully completed in previous 30 days, will\
+    \ \nonly be trigger again in case of any material \nchange like address, DOB etc.\
+    \ \n● Discounts will be applied directly to loan \napplications. Calculation will\
+    \ be built in SF. \n● Cashback details will be sent to LMS, applied \npost disbursement\
+    \ of loan. \n● Offer codes will be either applicable at Customer \nlevel or product\
+    \ level. \n● Assumption is that calculations like FOIR, \nInterest subvention,\
+    \ Flexi EMI are done on BRE \nand the same will be used for processing in \nSalesforce\
+    \ Application. \n● LMS (Loan Management System) will provide \nthe required functionality/API\
+    \ for splitting a \nsingle loan application in Loan Origination \nSystem (LOS)\
+    \ into multiple LAN (Loan Account \nNumbers). This is specifically required for\
+    \ \nmulti-product scenario (multiple assets/products \nadded to a si \n\nOur Understanding\
+    \ of Scope (4/12) \nFeature Description Scope/Solution Assumptions \nDDE (cont.)\
+    \ \nConfigure the following capabilities - \n● Enable addition of Value Added\
+    \ Service (VAS) \n○ Display add on from parent loan (master driven) \n■ Validation\
+    \ checks on VAS eligibility/applicability \n○ Option to purchase add on \n○ Add\
+    \ on options  (Instacard, Credit Health Report, Credit Shield, T-Health, Extend\
+    \ Warranty, \nMobile Theft) \n● Calculate premium for insurance add on’s \n● Obtain\
+    \ Terms & Condition/Customer Consent (for each added Add On) \n● Trigger integrations\
+    \ for policy booking (this will be done post disbursement) \n● Set up VAS bundles\
+    \ (mandatory/non mandatory VAS) \n○ Price calculation \n● Option to add multi-product\
+    \ \n○ Eligibility check (basis BRE response) \n● Check for valid open mandate\
+    \ for ETT (if opting for same bank account) \n● Single mandate \n● Single disbursement\
+    \ \n● Option to add additional products under parent product (parent-child scenario)\
+    \ \n● Enable tagging of multi-products and child products \n● Enable option for\
+    \ asset changes in loan application \n● Trigger BRE run \n○ Final list of approved\
+    \ products \n● Calculation of final approved amount \n○ LTV calculation \n○ Minimum\
+    \ of LTV and  approved from CRO/BRE \n● Calculate Net Funded amount (based on\
+    \ formula) \n● Calculate Maximum Finance amount (based on formula) \n○ Max finance\
+    \ amount validation \n● Generate loan summary details \n● Calculate Broken Period\
+    \ Interest (BPI) (based on formula) \n● Calculate Processing Fees (PF) / Other\
+    \ charges \n● Refer to Operations/RCU/Credit/FO (based on BRE response) \n● Trigger\
+    \ PA Base update (limit update post disbursement confirmation) ● Displayed VAS\
+    \ options will be master driven \ndependent on parameters like dealer, OEM, \n\
+    State, PINCODE, Branch, Product/Portfolio. \n● Both in multi-product and parent-child\
+    \ product \nscenarios, the application will be split before \nsending details\
+    \ to LMS for separate LAN \ncreations. \n● Up to five (5) levels of approval hierarchy\
+    \ will be \nsetup as part of approval process. \n● Premium calculation for Add\
+    \ Ons will be part of \nSF Application. Calculation will be restricted to \nbasic\
+    \ formulae based on fields from masters. \n\n\nOur Understanding of Scope (5/12)\
+    \ \nFeature Description Scope/Solution Assumptions \nPricing & Negotiation \n\
+    Configure the following capabilities - \n● Option to edit Rate of Interest (ROI)\
+    \ \n● Option to edit Processing Fees (PF) \n● Trigger deviation check \n○ Deviations\
+    \ approval \n● Generate Sanction letter \n○ Multiple sanction letters (multi-product)\
+    \ \n○ Single sanction letter (multiple small appliances) \n● Enable option to\
+    \ cancel loan application (if Customer does not want to proceed) \n● Capture banking\
+    \ details \n○ Pre-fetch bank account details from PA base for ETT \n○ Check for\
+    \ valid open mandate for ETT (if opting for same bank account) \n○ Fuzzy logic\
+    \ to match names (via SF Lendwise) \n● Trigger banking dedupe check (if more than\
+    \ 2 mandates exist on same account) \n● Set up mandate setup \n○ E-mandate (net-banking,\
+    \ UPI Id, debit card, Aadhaar) \n○ Physical mandate \n■ Capture image \n● Set\
+    \ image resolution (through ACH resolution API) \n● Trigger BRE run (Pre-disbursal)\
+    \ \n● Generate E-sign Agreement \n○ Send link to Customer (SMS, Whatsapp, Email)\
+    \ \n● Trigger Dealer geofencing check \n● Email ID verification \n● IMEI/Serial\
+    \ Number validation (for mobile assets) - (available only for dealers) \n○ Trigger\
+    \ IMEI dedupe check (through OEM integration) \n● Trigger Asset locking for mobile\
+    \ devices (through integration) \n○ Option to rollback locking (through integration)\
+    \ \n● Enable upload of invoice (for Dealers) \n○ LFR/RR (invoice pull API) \n\
+    ○ Manual upload followed by OCR (send to Loan Management System (LMS)) \n● Auto\
+    \ population of data based on invoice read \n● Promoter selection \n● Generate\
+    \ Pre- \n● Generate Pre Delivery Order/Delivery Order (DO) (through integration)\
+    \ ● ROI and PF change is only applicable for \nCSPL product. \n● Application Form,\
+    \ Form 60 if opted, \nAgreement including the Schedule of \nCharges and Repayment\
+    \ Schedule, KFS will \nbe part of e-agreement. \n● Up to ten (10) OEM’s have been\
+    \ considered  \nfor IMEI dedupe check integrations \nDown Payment ● Generate Bitly\
+    \ link to payment page \n● Send payment page link via Email/SMS/WhatsApp  \n●\
+    \ Initiate capture payment(incl QR Code generation) via integration with Payment\
+    \ Gateway \n● Generate receipt \n● Ability to track payment status \n\nOur Understanding\
+    \ of Scope (6/12) \nFeature Description Scope/Solution Assumptions \nCredit Configure\
+    \ the following capabilities - \n● Option to pick application from queue \n● Review\
+    \ loan application \n○ Credit Analysis Memorandum (CAM) \n○ BRE responses (BRE0,\
+    \ 1, 2, 3, 4) \n○ Bureau responses \n○ PA Base \n● Option to send back loan application\
+    \ to Dealer \n● Option to refer loan application to Operations \n● Option for\
+    \ bulk upload of cases (stuck cases) \n● Decision loan application \n○ Approve/Reject\
+    \ cases with comments \n● Trigger approval workflow \n● Enable approval at \n\
+    ● Option to reopen rejected cases ● Up to two (2) format of CAM, one \neach for\
+    \ CD and CSPL. Minor \nvariations in sections based on \nmulti products will be\
+    \ \naccommodates within the primary \nCAM format. \n● Approval matrix will be\
+    \ configured in \nSF as per the requirement. \nOperations Configure the following\
+    \ capabilities - \n● Option to pick application from queue/Enable FIFO based allocation\
+    \ \n● Review loan application \n● Trigger bank account check \n○ Capture integration\
+    \ responses (Penny Drop/Penny Less) \n● Option to send back loan application to\
+    \ Dealer/CC/SCE - based on CD/CSPL journey \n● Option to send loan application\
+    \ to Credit \n● Decision loan application \n○ Approve/Reject/Hold cases with comments\
+    \ \n● Delivery Order generation \n○ DO verification (NSTP) \n● Trigger disbursement\
+    \ (LMS integration) \n● Push Invoice and Delivery Order documents to LMS (LMS\
+    \ integration) \n● Send loan application details to CERSA I and Data Mart \n●\
+    \ Enable reverse update in Application for cancelled loans (data feed from LMS\
+    \ for cancelled loans) \n\nOur Understanding of Scope (7/12) \nFeature Description\
+    \ Scope/Solution Assumptions \nCall Center (Channel) Configure the following capabilities\
+    \ - \n● Computer Telephony Integration (CTI) integration with up to three (3)\
+    \ customer provided CTI adaptor \n● Enable routing of PA offers and digital leads\
+    \ to Call Center \n○ Routing logic for ETT \n○ Routing logic for NTT \n● Enable\
+    \ outbound calling (CTI integration) \n○ Pre-populate Customer/Lead/Application\
+    \ data \n● Option to initiate KYC checks \n● Address confirmation \n● Application\
+    \ number generation \n● Capture branch code of dealer (nearest to correspondence\
+    \ address location) \n● Option to capture Income details and initiate income assessment\
+    \ \n● Trigger BRE run \n● Asset selection \n● Display list and address of dealer\
+    \ based on product selection \n● Option to assign FO basis dealer selection \n\
+    ○ Assignment to FO/Dealer \n● Handle loan application escalation ● CTI vendor\
+    \ should have a connector \nto Salesforce. Building a connector is \nout of scope\
+    \ for SFDC. \nDocument Collection \nExecutive (DCE) Configure the following capabilities\
+    \ - \n● Assignment to DCE (internal/external) \n○ Assignment logic basis PINCODE\
+    \ (DCE PINCODE and Customer PINCODE) \n● Send Customer details to DCE \n● Upload\
+    \ Customer documents \n● Watermarking of uploaded documents (live image capture\
+    \ - gallery restriction) \n○ Trigger fuzzy logic check \n● Trigger geofencing\
+    \ check \n○ Option to re-assign application ● For DCE document collection cases,\
+    \ \nCustomer will receive SMS with DCE \ndetails and document collection \nappointment\
+    \ date and time. \n\nOur Understanding of Scope (8/12) \nFeature Description Scope/Solution\
+    \ Assumptions \nDIY Journey (CD/CSPL) Configure the following capabilities - \n\
+    ● Customer clicks on PA offer. \n○ Enable login (authentication using mobile number\
+    \ or PAN number) \n● Enable KYC check (CKYC/ Digilocker,/KYC document upload)\
+    \ \n● Proceed with address confirmation (permanent/communication) \n● Capture\
+    \ branch code of dealer nearest to Correspondence address location (auto populated)\
+    \ \n● Generate Loan application number \n● Capture income details \n○ Proceed\
+    \ with Income assessment (for higher limit) \n● Capture Bank details \n● Trigger\
+    \ BRE run \n● Display Offer - Loan and Add on details (Offers page) \n● Display\
+    \ loan summary (based on offer selection) \n● Selection of asset (applicable for\
+    \ CD) \n● Display list and address of Dealer based on product selection. (applicable\
+    \ for CD) \n● FO assignment basis dealer selection (applicable for CD) \n● Capture\
+    \ Live photo \n● Mandate setup (E-mandate, Physical mandate) \n● E-agreement \n\
+    ● Request for disbursement (CSPL only) \n● Enable option to resume journey (based\
+    \ on previous login history and stage) \n● DIY journey will be initiated from\
+    \ TVS \nCredit Website, Saathi App, Link sent \nto Customer via SMS, Whatsapp\
+    \ \n● SFDC does not recommend using a \npre-authenticated Link/URLfor DIY \njourney.\
+    \ \n● All KYC options applicable on the \nprimary non DIY journey except \neKYC/Biometric\
+    \ will be available to \nCustomer on DIY journey. \n\n\nOur Understanding of Scope\
+    \ (9/12) \nFeature Description Scope/Solution Assumptions \nRCU (Parallel Process)\
+    \ \nConfigure the following capabilities - \n● Option to pick application from\
+    \ queue \n● RCU Initiation and allocation flow include applicants, co-applicants\
+    \ etc \n● STP/NSTP queue (basis BRE run) \n● Review loan application \n○ Lead,\
+    \ QDE, DDE, Pricing and Nego, BRE run, Uploaded documents \n● Mark items requiring\
+    \ review \n● Send back to CC/SCE/Dealer/FO \n● Send back to Pricing/Negotiation\
+    \ (bank details name mismatch) \n● Decision loan application \n○ Approve/Reject/Hold\
+    \ cases with comments \n● Capture final RCU decision (RCU manager) \nStage Gate\
+    \ Validation ● Ability to validate of stage gates before moving to next stage.\
+    \ \nLoan Account Setup ● Create Customer Account via integration with Core Banking\
+    \ System (CBS) \n● Create Loan Account via integration with Loan Management System\
+    \ (LMS) ● Orchestration for Customer account creation and LAN creation \nwill\
+    \ be done through Mule. \n● LAN number will be generated in Salesforce and sent\
+    \ to LMS. \nStage Reversal \nConfigure the following capabilities - \n● Enable\
+    \ stage reversal to re-process the application at the following stages \n○ Credit\
+    \ to Dealer/FO \n○ Ops to Credit \n○ Ops to Dealer/FO \nQuery ● Ability to assign\
+    \ the query to a user \n● Ability to respond to query \nTurn Around Time (TAT)\
+    \ \ncalculations ● Calculate TAT of the application \n● TAT Report ● TAT will\
+    \ be calculated only at the \nloan stage levels \n● Query/s TAT to be deducted\
+    \ from the \nloan stage TAT and to be counted \nunder the Query owner's individual\
+    \ TAT \n\nOur Understanding of Scope (10/12) \nFeature Description Scope/Solution\
+    \ Assumptions \nDocuments \nChecklist & \nApproval ● Configure Document Types\
+    \ and Document Checklist \n● Document Approval Process ● Up to ten (10) checklists\
+    \ and thirty (30) documents will be configured for \ndocument checklist \nDocument\
+    \ \nGeneration ● Generation of documents (e.g. Application Form, Sanction Letter,\
+    \ KFS, \nRepayment Schedule, Welcome Letter (After disbursement), Delivery Order,\
+    \ \nLoan agreement) ● Salesforce Application will call Customer document generation\
+    \ service (API__ \nfor generation of required documents at specific stages of\
+    \ loan journey. \nNotification Configure standard OOTB - \n● Configure Email,\
+    \ SMS and Whatsapp templates for notifications ● Up to ten (10) Email, ten (10)\
+    \ SMS and ten (10) Whatsapp notification \ntemplates will be configured for internal\
+    \ and external communication. \n● SFDC will integrate with Customer existing Email,\
+    \ SMS and Whatsapp services \nprovider for sending notifications. \n● Communication\
+    \ through Email, Whatsapp and SMS are only for outbound \nmessaging. No inbound\
+    \ communication is considered in scope for this \nengagement. \nReports and \n\
+    Dashboards Configure standard OOTB - \n● Reports and Dashboards. ● Up to twenty\
+    \ five (25) reports and ten (10) dashboards are included in scope of \nthis implementation..\
+    \ \n● Reports UI is non customizable and standard formats will be used. \n● Export\
+    \ of reports will be limited to standard functionality and pushing report to \n\
+    any external repository/system is out of scope \n● Dashboard UI is non customizable\
+    \ \nMaster Data \nImport ● Set up master data tables in Salesforce Application.\
+    \ \n● Salesforce to provide templates for data import. Customer will extract,\
+    \ cleans \nand transform the data and provide data to SFDC in CSV format for data\
+    \ load. \nList of masters could include - \n○ Product Master \n○ Scheme Master\
+    \ \n○ Terms and Conditions Master \n○ Deviations Master \n○ Fee and Charges Master\
+    \ \n○ User Master \n○ Branch Master \n○ Dealer Master \n● Configure Manufacturing\
+    \ Processing Fees (MPF) calculation for Scheme  \nMaster \n○ Up to two (2) fields\
+    \ will be calculated on Scheme Master. ● Up to forty (40) masters objects are\
+    \ included in scope of this implementation.. \n● Up to one (1) time setup and\
+    \ load of masters (Note: Upload will be done \nmanually using Salesforce Data\
+    \ Loader tool). SFDC will carry out one (1) data \nload in UAT and one (1) data\
+    \ load in production environment of SF Application. \n● Up to one (1) custom screen\
+    \ will be provided to OEM users (TVS internal  \nusers) to to map/demap schemes/dealers.\
+    \ \n● Technical  feasibility of MPF calculation will be determined and finalized\
+    \ during  \nthe discovery phase. \n● Cleansing, deduplication and transformation\
+    \ of master data for migration needs \nbe carried out at source by the Customer.\
+    \ \n● Maker-checker process for up to thirty (30) masters is included in the current\
+    \ \nscope of implementation. \n● Regular sync of Master between source system\
+    \ and Application is out of \ncurrent scope for SFDC. \n● TVS Credit Master Maintenance\
+    \ team will be responsible for adding, removing, \nupdating masters in the application.\
+    \ \n\nOur Understanding of Scope (11/12) \nCapability Feature Description Scope/Solution\
+    \ Assumptions \nMobile Apps Salesforce \nstandard mobile \nApp● Configure standard\
+    \ Salesforce mobile app ● No offline functionality will be supported on \nSF standard\
+    \ mobile app. \nSalesforce \nBridge App ● Bridge App (React Native)  for iOS and\
+    \ Android with Mobile and Tablet Support \n○ Salesforce SDK based Authentication\
+    \ \n○ Biometric KYC device integration (to enable biometric based Aadhaar e-kyc\
+    \ \nauthentication) \n■ Capture of PID and Salesforce Server Integration \n○ Document\
+    \ Capture \n■ Transformation (Crop / Rotate, Brightness etc) \n■ Watermarking\
+    \ (Lat Long , Date Time) \n■ Size Limit \n■ Gallery upload/download Restriction\
+    \ ● No oﬄine functionality will be supported \non SF Bridge app. \n● Up to one\
+    \ (1) Customer provided \nbiometric device will be integrated with \nSF bridge\
+    \ app for enabling KYC. \nSalesforce \nMobile Publisher \n(External Users) ● Conﬁgure\
+    \ Salesforce Mobile Publisher App \n\nTechnical scope (12/12) \nService Area Description\
+    \ Scope/Solution Assumptions \nEnvironment \nsetup Setup of the Salesforce instance\
+    \ including sandbox creation and one (1) Production \nInstance as mentioned below\
+    \ \n● One Dev Sandbox for development and One additional Dev Sandbox for \nSupport\
+    \ \n● One Testing Sandbox \n● One UAT Sandbox ( Full Copy ) \n● One Performance\
+    \ Testing Sandbox ( Full Copy / Scale Test Sandbox) \n● One Production instance\
+    \ \nUser \nManagement ● Gather requirements from different teams to arrive at\
+    \ security and visibility \nrules to design the final role hierarchy. \n● Create\
+    \ up to twelve (12) profiles and twenty (20) permission sets \n● Create up to\
+    \ thirty (30) roles. Role hierarchy will be created and maintained \nmanually.\
+    \ \n● Create up to twenty five (25) Sharing rules and Organisation Wide Default\
+    \ \nrules ● Role hierarchy set up in the Application differs from the \norganization\
+    \ role hierarchy. \n● User permissions will be defined by roles and profiles \n\
+    ● Classes, pages, access will be controlled at profile level \n● Record access\
+    \ is at hierarchy level and based on sharing rules. \n● Concurrent sessions will\
+    \ be enabled at profile level only. During \nthe define phase, the number of parallel\
+    \ sessions which needs \nto be allowed will be established. \nObjects setup Standard\
+    \ objects setup and relationships to support customer service functions: \n● Application\
+    \ Form \n● Applicant \n● Application Form Product \n● Case \n● Contact \n● Activities,\
+    \ Tasks, Events \nUp to fifty (50) custom objects will be setup with up to fifty\
+    \ (50) fields each \nAudit Tracking SFDC will enable standard out of the box \n\
+    ● Configuration of Audit Tracking for up to hundred (100) fields on any given\
+    \ \nobject ● Standard History Tracking UI will be used for the \nimplementation.\
+    \ \n\nCore Implementation Assumptions \nFunctional Scope \n● A total of one hundred\
+    \ and ninety (190) system endpoints across eighty five (85) systems \nare included\
+    \ in scope of this implementation. Any additional integration touch-points to\
+    \ be \nincluded in scope will have commercial and implementation timeline impact.\
+    \ \n● Customer will share the final list of integration touch-points and system\
+    \ details prior to \ncommencement of discovery/define phase of the project. .\
+    \ \n● Finalized business process flows signed off by Customer should be available\
+    \ before \ncommencement of design phase for each line of business. Business process\
+    \ flows must \nhave detailed process explanations and detailed validations for\
+    \ all happy and failure \npaths. \n● Business requirements will have detailed\
+    \ fields to be captured at each screen and \nvalidations at screen and field level.\
+    \ \n \nTesting \n● Regression testing will be owned and performed by TVS credit\
+    \ with support from SFDC \n● Salesforce testing will be limited to Google Chrome\
+    \ browser and devices (Mobile - iOS, \nAndroid - make to be confirmed during development\
+    \ phase, Desktop - Mac) \n● Android device needs to be provided by TVS Credit\
+    \ for testing. Only one (1) device \nmodel will be tested. \n● User Acceptance\
+    \ Testing (UAT) will be conducted by Customer. The development of a \ntest plan\
+    \ document and test cases will be the responsibility of the Customer \n● SFDC\
+    \ will own and support System Integration Testing (SIT). SFDC will provide the\
+    \ list of \ntest cases executed during functional testing along with pass percentage,\
+    \ screenshots \nwherever applicable. \nMiddleware \n● Any encryption of payload\
+    \ (using Symmetric or Asymmetric \nalgorithms) will be handed in MuleSoft. \n\
+    ● All data parsing requirements w.r.t integrations will be handled on \nMuleSoft.\
+    \ \nBulk Upload Features \n● Application will not support any data uploads using\
+    \ excel files, any \ndata upload should be using pre-defined CSV  files using\
+    \ the \nApplication standard import wizard \n● Data load will be done through\
+    \ the standard import wizard. UI of \nimport wizard is not customizable and should\
+    \ be  used as is. \nOther \n● Salesforce Bridge App will be used to support features\
+    \ like file \ncompression, image transformation, document watermarking, \ndocument\
+    \ merging during document upload using Bridge mobile app. \n● Scanning the file\
+    \ during upload etc. is out of scope and file security \nwill only be limited\
+    \ to validating the file extensions. \n● Document preview feature in SF Application\
+    \ will be restricted to only \ncertain types of documents. TIFF images are not\
+    \ supported. \nTravel and Expenses (T&E) \n● Any Travel related expenses will\
+    \ be billed on actuals. Email approvals \nwill be sought before travel. \n● Separate\
+    \ Invoice with supporting documents will be provided for T&E \ninvoice payments.\
+    \ \n\n\nCore Implementation Assumptions \nAdditional Assumptions \n● Application\
+    \ will display pass/fail status of the outbound APIs but not inbound APIs If the\
+    \ \nAPI fails, display pre-configured error message (and not technical error)\
+    \ \n● Application will support multiple dealer onboarding with the same mobile\
+    \ number \nprovided the unique identity is maintained with a combination of mobile\
+    \ number and \nadditional field (e.g. unique email id). \n● Application will enable\
+    \ KYC and Repayment mandate modes based on the Dealer Risk \ncategory (derived\
+    \ from Masters) \n● Customer will share the final list of integration touch-points\
+    \ and system details prior to \ncommencement of discovery/define phase of the\
+    \ project. . \n● Finalized business process flows signed off by Customer should\
+    \ be available before \ncommencement of design phase for each line of business.\
+    \ Business process flows must \nhave detailed process explanations and detailed\
+    \ validations for all happy and failure \npaths. \n● Business requirements will\
+    \ have detailed fields to be captured at each screen and \nvalidations at screen\
+    \ and field level. \n \nTesting \n● Regression testing will be owned and performed\
+    \ by TVS credit with support from SFDC \n● Salesforce testing will be limited\
+    \ to Google Chrome browser and devices (Mobile - iOS, \nAndroid - make to be confirmed\
+    \ during development phase, Desktop - Mac) \n● Android device needs to be provided\
+    \ by TVS Credit for testing. Only one (1) device \nmodel will be tested. \n● User\
+    \ Acceptance Testing (UAT) will be conducted by Customer. The development of a\
+    \ \ntest plan document and test cases will be the responsibility of the Customer\
+    \ \n● SFDC will own and support System Integration Testing (SIT). SFDC will provide\
+    \ the list of \ntest cases executed during functional testing along with pass\
+    \ percentage, screenshots \nwherever applicable. \nMiddleware \n● Any encryption\
+    \ of payload (using Symmetric or Asymmetric \nalgorithms) will be handed in MuleSoft.\
+    \ \n● All data parsing requirements w.r.t integrations will be handled on \nMuleSoft.\
+    \ \nBulk Upload Features \n● Application will not support any data uploads using\
+    \ excel files, any \ndata upload should be using pre-defined CSV  files using\
+    \ the \nApplication standard import wizard \n● Data load will be done through\
+    \ the standard import wizard. UI of \nimport wizard is not customizable and should\
+    \ be  used as is. \nOther \n● Salesforce Bridge App will be used to support features\
+    \ like file \ncompression, image transformation, document watermarking, \ndocument\
+    \ merging during document upload using Bridge mobile app. \n● Scanning the file\
+    \ during upload etc. is out of scope and file security \nwill only be limited\
+    \ to validating the file extensions. \n● Document preview feature in SF Application\
+    \ will be restricted to only \ncertain types of documents. TIFF images are not\
+    \ supported. \nTravel and Expenses (T&E) \n● Any Travel related expenses will\
+    \ be billed on actuals. Email approvals \nwill be sought before travel. \n● Separate\
+    \ Invoice with supporting documents will be provided for T&E \ninvoice payments.\
+    \ \n\n\nScope Exclusions \n● Any offline capabilities on any mobile app. \n● Fully\
+    \ Custom mobile app based on Salesforce SDK except for Bridge App \nincluded in\
+    \ scope for biometric KYC and document transformation. \n● Mobile app for external\
+    \ users (Mobile Publisher or Custom app). \n● Any ETL development for master data\
+    \ loads in current scope of work. \n● Any development on Customer Community for\
+    \ Self Help portals and \ncustomer self servicing in current scope of work. \n\
+    ● BRE related requirements except for basic formulas and calculations, which \
+    \ \ncan be supported on SFDC Platform Out of the Box. \n● Loan Management System\
+    \ features and functionalities, specifically Loan  \nServicing, Pre-EMI, Repayment\
+    \ Schedule Variations, Payment Requisition  \nand any other Disbursement activities\
+    \ are not included in scope. \n● Document Management System (DMS) related workflows\
+    \ and  \nfunctionalities. \n● Collections process and related functionalities\
+    \ \n● Advanced Analytical reports requiring separate licenses. \n● Data archival\
+    \ and setup including but not limited to data archival, viewing of  \narchived\
+    \ data from Customer legacy systems in current scope of work. \n● Any requirement\
+    \ requiring reading and parsing offline Aadhaar XML. \n● API development or testing\
+    \ of API’s on Customer systems. \n● Any reporting on data not residing in Application.\
+    \ Any analytical reporting  \ninvolving significant calculations or external data\
+    \ like LMS data is out of  \nscope. \n● Any marketing or campaign related functionalities\
+    \ \n● Internal Rate of Return ( IRR) calculator \n● Incentive calculator \n● Automation\
+    \ test scripts development and Automation Testing \n● Performance, security, scale\
+    \ and load testing. SFDC will support \nCustomer in triaging and addressing issues\
+    \ arising out of these testing \nwherever technical feasible. \n● DevOps set up\
+    \ and implementation. \n● Training of end users. \n● Change management - Customer\
+    \ will conduct all Change Management \nactivities, including but not limited to:\
+    \ \n stakeholder identification; \n end user training and preparation of any training\
+    \ materials (eg: \nmanuals, deck) for end users; \n end user communications; and\
+    \ \n adoption planning and execution. \n\n\nScope considered post go-live of phase\
+    \ 1 \n1.Routing logic/ Segmentation \n2.Archival \n3.Service Cloud Voice - Setup\
+    \ and Conﬁguration \n4.Elements of Scope Considered as Phase 2 \n\nHere are elements\
+    \ which can be considered by TVS as subsequent \nImprovements / enhancements and\
+    \ need not be part of initial journey scope \nInput what we captured in common\
+    \ response sheet - Out of Scope Out of Scope - Not Considered \n\nTo be updated\
+    \ finally \n●Total Systems: 85     \n●Total System Endpoints: 190   \n●Release\
+    \ 1 (CSPL R1): 35 New    \n●Release 2 (CD): 8 New    \n●Release 3 (CSPL R2): 42\
+    \ New     Integration List Considered \n\nIndicative List of Integrations  (1\
+    \ of 8 ) \nFunctionality/System API/Vendors Pattern Foundation (CSPL R1) CD CSPL\
+    \ R2 \nLat Long conversion Google Sync New Reuse Reuse \nMapMyIndia Sync New\n\
+    SMS API (OTP included) Airtel Async New Reuse Reuse \nKarix Async New\nWhatsApp\
+    \ Gupshup Async New Reuse Reuse \nEmail Service TVSCS Internal API (SMTP) Sync\
+    \ New\nEmail Validation Perfios API(Karza) Sync New Reuse Reuse \nPA base TVSCS\
+    \ Internal API Sync New Reuse Reuse \nPA Limit TVSCS Internal API Sync New Reuse\
+    \ Reuse \nCKYC Trackwizz Async New\n\nIndicative List of Integrations  (2 of 8\
+    \ ) \nFunctionality/System API/Vendors Pattern Foundation (CSPL R1) CD CSPL R2\
+    \ \nDigilocker Digio Async New\nEqual Sync New\nVKYC Karza ASync New\nHyperverge\
+    \ ASync New\nDigio ASync New\nIDFY ASync New\nEKYC(Aadhaar OTP) Protean ASync\
+    \ New Reuse Reuse \nPerfios ASync New\nPAN Validation Equals Sync New Reuse Reuse\
+    \ \nKarza Sync New\nNSDL Sync New\nPAN Pro / Advance PAN validation Digitap Sync\
+    \ New\nBureau ID Sync New\nPAN tampering IDFY Sync Supported through Lendwise\
+    \ \nFuzzy Logic API -Names TVSCS Internal API Sync Supported through Lendwise\
+    \ \n\nIndicative List of Integrations  (3 of 8 ) \nFunctionality/System API/Vendors\
+    \ Pattern Foundation (CSPL R1) CDç CSPL R2 \nPenny Drop or Penny Less (not both\
+    \ per \nvendor) Kotak ASync New Reuse Reuse \nPaynimo ASync New\nTimble ASync\
+    \ New\nEquals ASync New\nAxis ASync New\nDedupe Posidex (TVSCS Wrapper API) Sync\
+    \ New Reuse Reuse \nUtility bill validations Signzy Sync New\nKarza Sync New\n\
+    HyperVerge Sync New\nMulti-Bureau CIBIL ASync New Reuse Reuse \nEquifax ASync\
+    \ New\nCRIF ASync New\nFace Liveness API IDFY Sync New Reuse Reuse \nTVSCS Internal\
+    \ API (DAM API) Sync New\n\nIndicative List of Integrations  (4 of 8 ) \nFunctionality/System\
+    \ API/Vendors Pattern Foundation (CSPL R1) CDç CSPL R2 \nWatermarking TVSCS Internal\
+    \ API Sync Supported through SF Bridge App \nID Proof OCR IDFY Sync Supported\
+    \ through Lendwise \nDigio Sync Supported through Lendwise \nTVSCS Internal API\
+    \ Sync Supported through Lendwise \nAddress Proof OCR IDFY Sync Supported through\
+    \ Lendwise \nDigio Sync Supported through Lendwise \nTVSCS Internal API Sync Supported\
+    \ through Lendwise \nAadhar Masking IDFY Sync New Reuse Reuse \nDigio Sync New\n\
+    TVSCS Internal API Sync New\nFace Match IDFY Sync New Reuse Reuse \nDigio Sync\
+    \ New\nTVSCS Internal API Sync New\n\nIndicative List of Integrations  (5 of 8\
+    \ ) \nFunctionality/System API/Vendors Pattern Foundation (CSPL R1) CDç CSPL R2\
+    \ \nE Mandate (Aadhaar) TVSCS Wrapper API Sync New Reuse Reuse \nE Mandate (Debit)\
+    \ TVSCS Wrapper API Sync New\nE Mandate (Net banking) TVSCS Wrapper API Sync New\n\
+    E mandate (UPI) TVSCS Wrapper API Sync New\nOpen Mandate UNCIA Sync New\neNACH\
+    \ TBD Sync New\nBRE Actico Sync & Async New New Reuse \nBiometric/Face Biometric\
+    \ Protean Sync New Reuse Reuse \nDocument generation - KFS TVSCS Internal API\
+    \ (TVS Gaslite) Sync New Reuse Reuse \nDocument generation - Sanction Letter TVSCS\
+    \ Internal API (TVS Gaslite) Sync New Reuse Reuse \nDocument generation - Application\
+    \ \nAgreement TVSCS Internal API (TVS Gaslite) Sync New Reuse Reuse \nDocument\
+    \ generation - T&C TVSCS Internal API (TVS Gaslite) Sync New Reuse Reuse \nDocument\
+    \ generation - Insurance Form TVSCS Internal API (TVS Gaslite) Sync New Reuse\
+    \ Reuse \n\nIndicative List of Integrations  (6 of 8 ) \nFunctionality/System\
+    \ API/Vendors Pattern Foundation (CSPL R1) CD CSPL R2 \nDocument generation -\
+    \ Form 60 TVSCS Internal API (TVS Gaslite) Sync New Reuse Reuse \nDocument generation\
+    \ - OSV TVSCS Internal API (TVS Gaslite) Sync New Reuse Reuse \nDocument Storage\
+    \ (DMS) TVSCS Internal API Async New Reuse Reuse \nLMS - Repayment Schedule API\
+    \ AAYU API - EBIX Sync New\nUNCIA Sync New Reuse Reuse \nLMS - Disbursement TVSCS\
+    \ Internal API Async New\nUNCIA Async New Reuse Reuse \nLMS - LAN/Account Opening\
+    \ Internal API Async New\nUNCIA Async New Reuse Reuse \nAppscore/Scorecard TVSCS\
+    \ Internal API ASync New Reuse Reuse \nSRNV/IMEIV OEM wise integration Sync New\
+    \ \nURL shortening TVS internal API Sync New Reuse Reuse \n\nIndicative List of\
+    \ Integrations  (7 of 8 ) \nFunctionality/System API/Vendors Pattern Foundation\
+    \ (CSPL R1) CD CSPL R2 \nMobile Intelligence API Pay U Sync New\nTruecaller Sync\
+    \ New\nAccount Aggregator Perfios ASync New Reuse Reuse \nOneMoney Sync New\n\
+    VAS booking API Galaxy Sync New Reuse Reuse \nT-health Sync New\nOne assist Sync\
+    \ New \nEpicure shield Sync New \nBank Statement Analyzer (BSA) - PDF \nupload,\
+    \ Net Banking, Scan document Perfios ASync New Reuse Reuse \nE-Sign API Leegality\
+    \ ASync New Reuse Reuse \n\nIndicative List of Integrations  (8 of 8 ) \nFunctionality/System\
+    \ API/Vendors Pattern Foundation (CSPL R1) CD CSPL R2 \nFraud check Experian API\
+    \ (Hunter) ASync New Reuse Reuse \nDatacultr app confirmation Datacultr Sync New\
+    \ \nValidate Asset Details TVSCS Internal API Sync New \nCTI (Dialers) Ameyo Sync\
+    \ New Reuse Reuse \nEbix Sync New\nEnser (Taurus is being sunset) Sync New\nLead\
+    \ Management System (Lead API) TVSCS Internal API (TBD) Sync New Reuse Reuse \n\
+    ITR Form 27A TBD Sync New\nAsset Validation TVSCS Internal API Sync New \nAsset\
+    \ Dedupe TVSCS Internal API (TBD) Sync New \nCredit Health Report TBD Sync New\n\
+    SIEM integration Requested via email by Vignesh - Keith to note  \n\nMuleSo Scope\
+    \ \n\nMuleSo - Scope of Work \nMuleSoft Focus Area Scope Description Key Assumptions\
+    \ & Dependencies \nMuleSoft Platform Review/Setup ●Integration Platform discovery\
+    \ based on TVS enterprise and \nInfrastructure guidelines and create the  MuleSoft\
+    \ Platform \narchitecture document \n●MuleSoft Platform setup \n○ MuleSoft managed\
+    \ control plane on  MuleSoft Cloud \n○ MuleSoft RTF deployed on customer hosted\
+    \ Kubernetes (K8) \ninfrastructure (on-prem or AWS) consisting of 2 MuleSoft RTF\
+    \ \ncluster Prod and Non Prod on Customer \n○ MuleSoft RTF Non-Prod Cluster will\
+    \ host DEV, TEST/SIT, UAT, \nPreprod/Perf Test; Prod will host PROD environment\
+    \ \n●Setup  the Persistence Gateway,  setup and implement \nimprovement as required.\
+    \ \n●Support the customer in setup secure connectivity to their AWS \nlanding\
+    \ zone and data center via Private spaces, VPN, VPC  \nconﬁgurations \n●Setup\
+    \ of Business groups, Teams, Connected Apps, SSO \n●Alerts, Notiﬁcations and Anypoint\
+    \ Monitoring setup ●MuleSoft license purchase and org enablement should have be\
+    \ \ncompleted before the start of the project. \n●Secure network access to customer\
+    \ cloud landing zone, \non-premises data centers and 3rd party service providers\
+    \ will be \nprovided by the customer \n●MuleSoft RTF Clusters and runtime servers(pods)\
+    \  will get installed \ninside the customer’s landing zone on Kubernetes Cluster\
+    \ \nconﬁgured by the Customer. Infrastructure will be owned & \nprovisioned by\
+    \ customer, including AWS landing zone \nconﬁguration, creation/deployment and\
+    \ conﬁguration of  \nchef/ansible/terraform scripts, and the Postgres DB required\
+    \ for \nthe Persistence Gateway. \n●Anypoint Monitoring will be used to monitor\
+    \ the MuleSoft \nplatform, limited to the speciﬁc features and user tiers selected\
+    \ in \nthe customer's subscription. If there are requirements to forward \nlogs\
+    \ external log monitoring tool, the same will be provisioned and \nconﬁgured by\
+    \ the Customer \nMuleSoft implementation - CSPL R1 ●Implementation of MuleSoft\
+    \ ﬂows/endpoints; \n○ Connection to 35 internal systems or 3rd party services\
+    \ \nresulting in approximately 80 MuleSoft ﬂows or endpoints \n○ 12 orchestrated\
+    \ MuleSoft ﬂows related to the CSPL Journey \n○ 1 API proxy to secure API calls\
+    \ from SFDC \n○ 9 MuleSoft batch ﬂows for incremental update of master data \n\
+    ○ The complexity distribution considered is 54% Low, 40% \nMedium, 6% High \n\
+    ●Test Support during  UAT,  Go-Live and Post Go-Live hypercare \nperiod ●APIs\
+    \ will be implemented using  API led Connectivity  approach and \nfollowing “\
+    \ Domain driven Design ”\n●Change  to customer’s applications  to enable integrations\
+    \ will be \ndone by the customer team \n●Customer is responsible for providing\
+    \ the right logic to identify delta \nrecords for incremental Batch Process. \n\
+    ●Batch size for Mulesoft batch flows are 10000 rows or 100KB size per \nrun.\n\
+    \nMuleSo - Scope of Work \nMuleSoft Focus Area Scope Description Key Assumptions\
+    \ & Dependencies \nMuleSoft implementation - CD R1 ●Implementation of MuleSoft\
+    \ ﬂows/endpoints; \n○ Connection to 8 additional internal systems or 3rd party\
+    \ \nservices resulting in approximately 17 MuleSoft ﬂows or \nendpoints \n○ 10\
+    \ orchestrated MuleSoft ﬂows related to the CD Journey \n○ Updates to 1 API proxy\
+    \ to secure API calls from SFDC \n○ 9 MuleSoft batch ﬂows for incremental update\
+    \ of master data \n○ The complexity distribution considered is 45% Low, 50% \n\
+    Medium, 15% High \n●Test Support during  UAT,  Go-Live and Post Go-Live hypercare\
+    \ \nperiod ●APIs will be implemented using  API led Connectivity  approach and\
+    \ \nfollowing “ Domain driven Design ”\n●Change  to customer’s applications  to\
+    \ enable integrations will be \ndone by the customer team \n●Customer is responsible\
+    \ for providing the right logic to identify delta \nrecords for incremental Batch\
+    \ Process. \n●Batch size for Mulesoft batch flows are 10000 rows or 100KB size\
+    \ per \nrun.\nMuleSoft implementation - CSPL & \nCD R2 ●Implementation of MuleSoft\
+    \ ﬂows/endpoints; \n○ Connection to 42 additional internal systems or 3rd party\
+    \ \nservices, system level orchestrated ﬂows resulting in \napproximately 95 MuleSoft\
+    \ ﬂows or endpoints \n○ Updates to the 20  orchestrated MuleSoft ﬂows related\
+    \ to the \nCSPL and CD Journey \n○ The complexity distribution considered is 75%\
+    \ Low, 25% \nMedium, 0% High \n●Test Support during  UAT,  Go-Live and Post Go-Live\
+    \ hypercare \nperiod ●APIs will be implemented using  API led Connectivity  approach\
+    \ and \nfollowing “ Domain driven Design ”\n●Change  to customer’s applications\
+    \  to enable integrations will be \ndone by the customer team \n●Customer is responsible\
+    \ for providing the right logic to identify delta \nrecords for incremental Batch\
+    \ Process. \n\nMuleSo - Assumptions \nKey assumptions have been made in the development\
+    \ of our proposal. We will need to re-estimate or raise a change order if there\
+    \ are any changes to \nthese assumptions. These assumptions include but not limited\
+    \ to following \n●The effort and cost estimates are based on the documented integration\
+    \ use cases and assumptions derived from our experience regarding the \nrequired\
+    \ MuleSoft flows. During Detailed Discovery, these use cases and complexity assumptions\
+    \ will be verified. Any material change to the \nintegrated use cases or their\
+    \ complexity will be subject to the Change Control process. \n●Effort estimates\
+    \ will be revised if detailed discovery suggests transitioning scheduled jobs\
+    \ to event-driven, near-real-time integrations, contingent \nupon the application's\
+    \ event generation capability. \n●Data synchronization with the Enterprise Data\
+    \ Warehouse (EDW) is excluded from the MuleSoft scope. It is recommended to utilize\
+    \ native EDW \nconnectors to pull data, or to enable the EDW to access Salesforce\
+    \ data directly via zero-copy integration. \n●It is assumed that applications\
+    \ within Customer environment and Third party systems will provide REST API or\
+    \ SOAP web services or can be \nintegrated using out of the box MuleSoft connectors.\
+    \ \n●Near real time messaging queues and topic conﬁguration will get provisioned\
+    \ for async/near real time integration and managed by the \ncustomer’s IT teams\
+    \ \n●Authentication approach and connectivity to the internal systems will be\
+    \ addressed by customer, in time so as not to hinder the implementation work.\
+    \ \n●Customer is responsible for data cleansing, extraction, and enrichment of\
+    \ test data that will requested by the SFDC team \n●The required infrastructure,\
+    \ compliance, security requirements/ approvals as required by the project will\
+    \ be managed and provided by customer in \ntime and will be made available to\
+    \ the team as and when required. \n●Customer is responsible for the networking\
+    \ and underlying infrastructure troubleshooting and configuration (including configuration\
+    \ of certificates, \nexternal load balancers and required DNS entries) \n●Any\
+    \ request for resources , access to systems etc. by Salesforce  will be provided\
+    \ within 3 business days / reasonable timeframe as agreed \n●Customer will assign\
+    \ a project manager who will coordinate all meetings, workshops, documentation\
+    \ requests, environment access, etc. \n●The Customer will coordinate with the\
+    \ internal application owners and 3rd Party services providers for the SIT, UAT,\
+    \ NFR testing and Go-Live \n●Customer will provide resources for knowledge transfer\
+    \ in a timely manner to support this engagement and undertake any knowledge transfer\
+    \ \nactivities. This will occur without impacting the delivery of each stated\
+    \ activity as per the consolidated project timelines \n\n\nLendwise Scope \n\n\
+    ●Document Classification  - Instantly identifies document types upon upload, ensuring\
+    \ a seamless loan application process and \nsignificantly reducing FTNR (First\
+    \ Time Not Right) stage reversals. \n●Fraud Detection  - Scans documents for potential\
+    \ fraud and tampering. Detects masked data, blurred images, and data \ninconsistencies\
+    \ across multiple pages to ensure complete document integrity. \n●Automated Data\
+    \ Entry  - Pre-fills application and collateral fields by extracting data directly\
+    \ from uploaded documents, eliminating \nmanual entry and boosting sales team\
+    \ productivity. \n●Policy Check  - Validates user and customer-provided data against\
+    \ established policy gating rules (from policy document) to ensure \nstrict compliance\
+    \ and eligibility. \n●Rejection Notifications & FTNR Flow - Automatically triggers\
+    \ notifications for blurred or rejected documents, prompting customers \nto re-upload.\
+    \ New uploads are seamlessly integrated into the journey to automatically regenerate\
+    \ the updated application form. \n●Document-Driven Scheme Validation  - Cross-references\
+    \ uploaded documents against checklist policies to recommend the most \nsuitable\
+    \ loan schemes. It also highlights missing documentation, helping users quickly\
+    \ determine the best scheme for their specific \nneeds. \n●DIY Intake  - Features\
+    \ a customer-facing chat agent that empowers users to independently initiate loan\
+    \ applications and inquire about \nTVS products with ease. Sales Agent Confidential\
+    \ \nManages intake, checks completeness & collaborates Proprietary \n\n●Fraud\
+    \ Detection  - Cross-references sales-submitted documents with API and application\
+    \ data to highlight critical inconsistencies, \nsuch as irregular salary credits\
+    \ or cash deposits made on national holidays. \n●EMI Detection  - Extracts and\
+    \ analyzes EMI payments directly from bank statements to uncover any unreported\
+    \ financial obligations. \n●Data Triangulation  - Provides a bird's-eye view comparing\
+    \ data across API sources, uploaded documents, and the application form, \nenabling\
+    \ users to easily match data points and spot potential fraud. \n●CPV Report Validation\
+    \  - Cross-checks reports uploaded by CPV agencies against original questionnaire\
+    \ responses to ensure \ncontent accuracy and consistency. \n●Extracts Bank Transactions\
+    \ for Credit Analysis - Extracts transaction data from bank statements and presents\
+    \ an editable view, \nallowing users to accurately calculate credit metrics like\
+    \ limit utilization and BTO \n●Application Scoring & Recommendation - Utilizes\
+    \ a configurable, weighted scoring mechanism driven by fraud flags to evaluate\
+    \ \nthe application and provide actionable recommendations for next steps. Credit\
+    \ Agent Confidential \nAutomates risk assessment Proprietary \n\n●Maker Ops Automation\
+    \ - Functions as an automated \"Maker\" by validating operational documents and\
+    \ flagging potential issues, \nsuch as missing signatures on application forms.\
+    \ This ensures sales teams submit approval-ready documents to Checker Ops, \n\
+    effectively eliminating stage reversals. \n●Automates Disbursement Requests -\
+    \ Automatically generates and routes disbursement requests to Checker Ops for\
+    \ final review, \nstreamlining the process for both fresh and balance transfer\
+    \ loans. \n●Automates PDD Checks  - Automates Post-Disbursement Document (PDD)\
+    \ verification for secured loans. It instantly validates critical \ndocuments,\
+    \ such as Registration Certificates, against the original application data to\
+    \ ensure complete accuracy. Operations Agent \nSeamlessly orchestrates workflows\
+    \ & audits Confidential Proprietary \n\nAgentforce/Lendwise Assumptions & Exclusions\
+    \ \nAssumptions \n● Due to the nature of the Agentforce generative AI services\
+    \ and artificial intelligence generally, AI outputs may \nbe unpredictable. Customer\
+    \ should review and test outputs before relying on them for Customer's business\
+    \ \nprocesses and regularly after deploying Agents to non-test environments. Customer\
+    \ is responsible for its use \nof AI outputs and for ensuring compliance with\
+    \ applicable laws and regulations \n● Licensing Prerequisites : Delivery is contingent\
+    \ on the customer having specific licenses (e.g., Agentforce, Data \nCloud) and\
+    \ sufficient Flex Credits available for consumption in place before the project\
+    \ kick-off \n● AI Output Determinism : AI outputs are inherently non-deterministic\
+    \ and may be unpredictable; customers must \nreview and test all outputs before\
+    \ relying on them for business processes. 1\n● Human-in-the-Loop : Solutions are\
+    \ by default designed with a \"human-in-the-loop\" premise where the agent shows\
+    \ \nextracted or generated details to a user for confirmation before record creation\
+    \ or updates unless any specific use \ncases are agreed to be completely automated\
+    \ by agent without human involvement. \n● Data Readiness : Customers are responsible\
+    \ for the quality, readiness, and accuracy of data (cleansing, \ndeduplication)\
+    \ for any Data Cloud or Agentforce use cases. The delivery of scoped Agentforce\
+    \ use cases is contingent \nupon the quality of Customer-provided knowledge sources\
+    \ (Articles/ Webcrawlers) \n● Linear-flow : Implementation assumes Agentforce\
+    \ conversation to be sequential linear flows; consequently, any \nnon-linear or\
+    \ multi-intent edge cases will trigger a human agent transfer \n● LLM Usage :\
+    \ Implementation assumes the use of Salesforce-supported or hosted Large Language\
+    \ Models (LLMs) \n● General Availability (GA) : If a solution depends on software\
+    \ that is not yet GA, the requirement will be deferred until \nit becomes available\
+    \ or an alternative is explored. \n● Standard Tooling : Implementation assumes\
+    \ the use of standard OOTB features, standard Lightning UI, and \n\"clicks-not-code\"\
+    \ configuration where reasonably possible. \n● Language & Currency : Scope typically\
+    \ assumes a single language (English) and a single currency unless otherwise \n\
+    specified. \n● Grounding Sources : Verification of data residency and compliance\
+    \ for chosen LLMs is the customer's responsibility; \nagents will use provided\
+    \ knowledge archives (PDFs, URLs, or internal systems) as grounding sources. \n\
+    ● Authentication as Consumer : The agent acts as a consumer of existing customer-owned\
+    \ authentication services, \nIdentity Providers (IdP), and security infrastructure.\
+    \ \n● Prompt Refinement:  For all Agentforce prompt engineering and RAG retrieval\
+    \ logic driven use cases, default is upto \nthree (3) structured refinement cycles.\
+    \ \n  Exclusions \n● Advanced Testing : Performance, load, penetration or scale\
+    \ testing \nof the Agentforce agents or their underlying actions and channel is\
+    \ \nout of scope. \n● Proactive Engagement : Agent-initiated conversations or\
+    \ proactive \noutbound messaging (system-initiated) are out of scope. \n● Content\
+    \ Authoring : SFDC is not responsible for authoring, editing, \nor \"cleaning\"\
+    \ base knowledge articles or unstructured data to make \nthem suitable for AI\
+    \ ingestion. \n● Custom UI/UX : Development of custom Agentforce user interfaces,\
+    \ \nbespoke branding, or custom Lightning Web Components (LWC) for \nthe agent\
+    \ panel is excluded unless explicitly listed. \n● Analytics & Monitoring : Reporting\
+    \ on Data Cloud Agentforce \nconsumption, logging, or monitoring is out of scope.\
+    \ \n● Formal Security Reviews : Security compliance, accessibility \nstandards,\
+    \ and regulatory certifications for the Agentforce platform \nare customer responsibilities.\
+    \ \n● Continuous Interrogation : Further conversational interrogation of \nprocessed\
+    \ files beyond the initial extraction is not in scope unless \nexplicitly listed\
+    \ in scope. \n● Migration from Legacy Bots : Migration from existing chat/live\
+    \ \nagents or legacy bots is excluded. \n\n\n●Executive Support from TVS Credit\
+    \ \n●Consent to Use Subcontractors and Sub-processors Other Elements \n- Terms\
+    \ & Conditions \n\nExecutive Support from TVS Credit \n1. Business Accountability\
+    \ & \nFinal Sign-oﬀ \nQuick TAT & Ownership \n● A Detailed Dated project plan\
+    \ will \nbe shared by Salesforce. \n● Ensure SMEs & decision-makers \navailable\
+    \ as per SFDC Plan/ \nAdherence. \n● User Stories will be created based \non the\
+    \ Scope deﬁned in SOW, and \nbased on Discovery sessions \n● Sign oﬀ user stories\
+    \ within same \nweek as discussed ; every Friday \nEOD as  ﬁnal cut-oﬀ. \n● Scope\
+    \ alterations after sign-oﬀ will \nhave to be deferred to a future \nrelease.\
+    \ 2. System & Integration \nReadiness \nTechnical Infrastructure \n● AWS Setup\
+    \ - TVS has only 3 weeks \nto get ready and a complete formal \nEKS server readiness\
+    \ workshop. \n● Align external systems and APIs \nwith project timelines. \n●\
+    \ Actual working integration points \nin lower envs (No Stubs). \n● Once the Integration\
+    \ Specs and \nWorking API is shared, its frozen. \nAny further changes goes via\
+    \ CCB. 3. Change Governance & \nAccountability \nGovernance & Controls \n● Establish\
+    \ CCB; changes raised at \nSteerco for approval to be \napproved within 3 working\
+    \ days. \n● Shared responsibility for timeline, \nbudget, and eﬀort control. \n\
+    ● Timely agreement on CRs and \nawareness of KPI impact. \n● Any slippages from\
+    \ original shared \nplan to be accounted in CCB for \nadditional eﬀort \n\nPrerequisites\
+    \ for the Program Start \nBefore Initiation of the Program \nCritical Path - Signed\
+    \ Oﬀ Internally at TVS Credit \n● Figma Wireframes:  Changes required to existing\
+    \ wireframes (70-80% match). Need existing ones to start \nWeek 1. \n● Field Lists\
+    \ & Validations:  Required as per wireframe speciﬁcations. \n● Integration Specs:\
+    \  Required for all APIs; multiple endpoints noted for some systems. \n● Functional\
+    \ Workﬂow Logic:  Detailed BRD, FSD, or equivalent module logic. \n● Mule Infra\
+    \ Setup:  Essential environment conﬁguration \n● GitLab, JIRA Access for SF: \
+    \ Access without VDI needed for AI tool compatibility. Alternative: Use SF GIT\
+    \ until \nDay-2-Handoﬀ. \n● TVS Credit - MuleSoft Codebase Access \nSecondary\
+    \ Prerequisites (Required as we progress) \n●DevOps Setup:  Required for Mule\
+    \ and Core modules. \n\n\nClarifications from TVSCS \n1. CRIF and CIBIL MFI Integration\
+    \ - While we had earlier aligned that these integrations could be considered as\
+    \ part of Phase 2, management has recommended including \nthem within Phase 1,\
+    \ considering the near-term business plans. \n2. Geo-location Distance Calculation\
+    \ - An API-based approach should be included as a fallback mechanism in addition\
+    \ to the Apex-based calculation logic. \n3. APR Calculation - Sample calculation\
+    \ sheet attached for reference. \n4. Pending from TVSCS post today’s discussion\
+    \ - parameters for routing the leads/base in CSPL and associated logics. UIDAI\
+    \ regulations to be shared by infosec by \ntomorrow. \n5. Sharing inputs from\
+    \ our team, which have been incorporated into the tracker - in case of any queries,\
+    \ we can connect further. (Attached) \nAdditionally, from an implementation and\
+    \ scope management perspective, we request that the Scope of Work (SoW), solution\
+    \ design, and effort estimates comprehensively  \ncapture the following: \n1.\
+    \ All business scenarios must include both positive and negative flows, including\
+    \ exception handling, validation failures, retries, fallbacks, rejection paths,\
+    \ manual intervention \nrequirements, and system unavailability scenarios. \n\
+    2. All integration touchpoints should explicitly document request/response structures,\
+    \ error handling mechanisms, retry strategies, timeout handling, dependency \n\
+    assumptions, and ownership for issue resolution. \n3. Any assumptions made during\
+    \ estimation, solutioning, AI consumption sizing, integration design, data migration,\
+    \ reporting, security, or operational processes should be \nexplicitly documented\
+    \ and included in the SoW/BOM. \n4. All dependencies on TVSCS , third-party vendors,\
+    \ external APIs, data providers, and infrastructure readiness should be clearly\
+    \ identified along with expected timelines and \nresponsibilities. \n5. From the\
+    \ lists shared and discussion, if any functionality, scenario, report, dashboard,\
+    \ workflow, approval process, notification, integration, or operational activity\
+    \ that is not \ncovered within the current scope should be explicitly identified\
+    \ as out-of-scope to avoid ambiguity during execution. \n6. Non-functional requirements\
+    \ including security, auditability, monitoring, logging, archival should be documented\
+    \ along with corresponding assumptions. \n7. User roles, profiles, permission\
+    \ models, segregation of duties, and access management requirements should be\
+    \ documented and included in the solution scope. \n8. Any future-phase items,\
+    \ deferred requirements, or roadmap considerations should be clearly identified\
+    \ and documented separately to ensure alignment on Phase 1 scope \nboundaries\
+    \ \n15 June  - Email From Sai  ( GUIDING NOTES ) \n\nInclude both Core and MS\
+    \ RACI MATRIX  - RESPONSIBILITIES \nEmail on Tue, Jun 16, 12:09  PM - Vignesh\
+    \ \nHi @Astha Agrawal \nAs discussed, can you please share the responsibility\
+    \ matrix for MuleSoft as Deepak communicated and share it with us.  \nHi @Ravikiran\
+    \ Achuthakumar \nWe would need to have the same for the Salesforce Shared Responsibility\
+    \ matrix as well . \n\nPrerequisites - TVS Credit Key Dependencies \n ***Delay\
+    \ in above activities will impact project timelines with cost \n1 TVS Credit BRD\
+    \ Business Requirements Document (BRD) for \nCSPL and CD Functionality TVS Credit\
+    \ \nProduct \nOwner Discovery/Deﬁne Phase Discovery workshop Critical \n2 Salesforce\
+    \ Org \n— 6 Sandboxes 6 orgs required: 2 Dev, 1 Test, 1 UAT Full Copy, \n1 Performance\
+    \ Full Copy, 1 Production. Full \nCopy sandboxes have long provisioning lead \n\
+    times. TVS Credit + \nSalesforce Discovery/Deﬁne Phase Development & Testing cannot\
+    \ be started Critical\n3 MuleSoft License & \nOrg Enablement Anypoint Platform\
+    \ licenses (RTF + API Manager \n+ Exchange) must be purchased and \norg-enabled\
+    \ before project start TVS Credit \nProcurement Discovery/Deﬁne Phase MuleSoft\
+    \ API Design / Implementation cannot be started Critical\n4Agentforce + Data \n\
+    Cloud + Flex Credits \nLendwise agent delivery (Sales, Credit, \nOperations) contingent\
+    \ on licenses being in \nplace before kickoﬀ. TVS Credit \nProcurement Discovery/Deﬁne\
+    \ Phase Lendwise scope cannot be delivered Critical\n5AWS EKS Cluster \nProvisioning\
+    \ \nTVS Credit to provision MuleSoft RTF clusters \n(Prod + Nonprod) on customer-owned\
+    \ \nKubernetes TVS Credit IT Mule Foundation \nSet-Up MuleSoft Integration Development\
+    \ Blocked Critical \n6Secure Network \nConnectivity Connectivity from RTF cluster\
+    \ to TVS data \ncentre, AWS landing zone, and 3rd-party \nvendors. Firewall rules,\
+    \ certs, DNS, LB Set-Up TVS Credit IT \nInfra Mule Foundation \nSet-Up \nMuleSoft\
+    \ Integration Development Blocked \nCritical\n7MuleSoft Codebase \nAccess to MuleSoft\
+    \ codebase via a  source code \ncontrol tool TVS Credit IT Discovery/Deﬁne Phase\
+    \ \nUnable to start the Discovery Workshops Critical \n8 Wireframes Final approved\
+    \ wireframes for all screens \n(including svg, assets etc) TVS Credit \nProduct\
+    \ \nOwner Discovery/Deﬁne Phase Unable to start the Discovery Workshops Critical\
+    \ Item Owner Due \nDate Prerequisite For Sl \nNoDescription Priority Impact If\
+    \ not Resolved \n\nPrerequisites - TVS Credit Key Dependencies (Contd) \n ***Delay\
+    \ in above activities will impact project timelines with cost \n9Fields List \n\
+    List of ﬁelds and ﬁeld validations per screen \nand persona - across the journey\
+    \ \nTVS Credit \nProduct \nOwner Discovery/Deﬁne Phase \nUnable to start the Discovery\
+    \ Workshops Critical\n10Validation list per \nstage/Screenﬂow \nvalidations List\
+    \ of stage validations across diﬀerent \ncollections process. \nTVS Credit \n\
+    Product \nOwner Discovery/Deﬁne Phase \nUnable to start the Discovery Workshops\
+    \ Critical \n11 Masters Final list of Masters TVS Credit \nProduct \nOwner Discovery/Deﬁne\
+    \ Phase \nUnable to start the Discovery Workshops Critical \n12 Master data Master\
+    \ data structures with ﬁeld deﬁnitions  \nand Master data in SFDC speciﬁed formats\
+    \ \n(csv ﬁeld) TVS Credit \nProduct \nOwner Discovery/Deﬁne Phase \nUnable to\
+    \ start the Discovery Workshops Critical \n13 Integration List Final list of Mule\
+    \ integrations TVS Credit \nProduct \nOwner Discovery/Deﬁne Phase \nDevelopment\
+    \ & Testing cannot be started Critical \n14Mule Integration \nSpecs Mule Speciﬁcation\
+    \ Docs TVS Credit \nProduct \nOwner Discovery/Deﬁne Phase \nDevelopment & Testing\
+    \ cannot be started Critical \n15 Notiﬁcations List of notiﬁcation templates and\
+    \ master \nmapping or meta data of templates like \nTemplate ID TVS Credit \n\
+    Product \nOwner Discovery/Deﬁne Phase \nUnable to start the Discovery Workshops\
+    \ Critical Item Owner Due \nDate Prerequisite For Sl \nNoDescription Priority\
+    \ Impact If not Resolved \n\nPrerequisites - TVS Credit Key Dependencies (Contd)\
+    \ \n ***Delay in above activities will impact project timelines with cost \n16\
+    \ Documents List of templates and document template \nformats for all documents\
+    \ to be generated in \nSalesforce Application. TVS Credit \nProduct \nOwner Discovery/Deﬁne\
+    \ Phase \nUnable to start the Discovery Workshops Critical \n17 Mule Working APIs\
+    \ \nin Lower Envs — No \nStubs \nActual working integration points in lower envs\
+    \ \n(No Stubs). All 35 Foundation APIs must have \nfunctional sandbox/UAT endpoints\
+    \ before SIT. TVS Credit IT \n+ Vendors Mule Foundation \nSet-Up MuleSoft Integration\
+    \ Development Blocked \nCritical\n18Application Security \nGuidelines \nFinal\
+    \ list of App Sec guidelines \nTVS Credit IT Discovery/Deﬁne Phase High \n19Non\
+    \ Functional \nRequirements (NFR) \nDetails of any additional NFR like Performance\
+    \ \nTVS Credit \nProduct \nOwner Discovery/Deﬁne Phase \nUnable to start the Discovery\
+    \ Workshops \nCritical \n20Stakeholder \nidentiﬁcation Stakeholders mapped to\
+    \ discovery sessions \nTVS Credit \nProduct \nOwner Discovery/Deﬁne Phase Unable\
+    \ to start the Discovery Workshops Critical \n21Discovery \nworkshops agenda \n\
+    Final agenda for discovery workshops - \nDaily/Weekly agenda \nTVS Credit + \n\
+    SFDiscovery/Deﬁne Phase \nUnable to start the Discovery Workshops \nCritical \n\
+    22Tools access & \nLicenses \nAccess to TVS internal tools for SFDC project \n\
+    personnel e.g. JIRA access, GITLab, VPN Access \nTVS Credit IT \nDiscovery/Deﬁne\
+    \ Phase \nUnable to Document User Stories in JIRA Critical \n23 Devops Tooling\
+    \ Suﬃcient licenses for CI/CD tooling to be used \nin the project e.g, Jenkins\
+    \ Checkmarx,etc TVS Credit IT Build Phase Unable to promote Built code to Repository\
+    \ Critical Item Owner Due \nDate Prerequisite For Sl \nNoDescription Priority\
+    \ Impact If not Resolved \n\nConsent to Use Subcontractors and Sub-processors\
+    \ \nSFDC will be responsible for the performance of the Professional Services\
+    \ by its personnel performing Professional Services pursuant to \nthis SOW (including\
+    \ employees and subcontractors) as if they were SFDC hereunder, except as otherwise\
+    \ specified herein. Customer’s \nexecution of this SOW constitutes its express\
+    \ consent for SFDC to use subcontractors to perform Professional Services. Additionally,\
+    \ \nCustomer agrees that SFDC may use the entities listed  \nhttps://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/professional-service-agreements-and-terms/psa-in\n\
+    frastructure-and-subprocessors.pdf (including SFDC entities and Affiliates and\
+    \ third-party cloud-based tools) as of the Effective Date as \nwell as the entities\
+    \ and tools (if any) listed in the table below to access or store any Personal\
+    \ Data. Additional Sub-processors may be used \nas agreed to by Customer in writing\
+    \ (email permitted). Personal Data means electronic information relating to an\
+    \ identified or identifiable \nnatural person, where such data is provided to\
+    \ SFDC to perform the Professional Services. \n\n\nThank You \n"
+  uploaded_at: '2026-06-18T09:10:14.769556+00:00'
+  word_count: 10513
+schema_version: 1
+updated_at: '2026-06-18T09:12:49.377802+00:00'
